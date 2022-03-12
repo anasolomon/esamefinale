@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: center; 
-    font-family: 'Rubik', sans-serif;; 
+    font-family: 'Rubik', sans-serif; 
 }
 ul {
     list-style-type: none;
@@ -23,9 +23,6 @@ ul {
     font-size: 75%;
     letter-spacing: 5px;
   }
-  li a:hover {
-    background-color: blanchedalmond;
-}
 .navbar-container{
     margin: auto;
     height: 60px;
@@ -51,9 +48,12 @@ ul {
     margin-left: 11%;
     letter-spacing: 1px;
 }
+.popo{
+    margin-left:1.1%;
+}
 .pain{
     margin-top: 10%;
-    margin-left: 11%;
+    margin-left: 12%;
 }
 .pain::after {
     content: "";
@@ -67,7 +67,7 @@ ul {
 }
 .secondt{
     float: right;
-    padding-right: 13.6%;
+    padding-right: 14.5%;
     
 }
 .secondlyric{
@@ -80,7 +80,7 @@ hr{
 }
 .buttonsdiv{
     clear:left;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     margin-left: 40%;
     margin-top: 20%;
 }
@@ -91,12 +91,15 @@ hr{
     padding:3px 30px;
     margin-right: 20%;
     margin-bottom: 10%;
+    transition: all 0.5;
+    color:gray;
 
 }
 .buttons:hover{
-    background-color: grey;
-    border: 2px solid white;
+    border: 2px solid grey;
+    background-color: rgb(160, 160, 160);
     cursor: pointer;
+    color:white;
 }
 i{
     margin: 0 0.4%;
